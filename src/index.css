@@ -1,0 +1,298 @@
+ /* index.css */
+ @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+ body {
+   direction: rtl;
+   text-align: right;
+   font-family: 'Tahoma', 'Arial', sans-serif;
+   font-family: 'Tajawal', sans-serif;
+
+
+ }
+
+ .container-50px {
+   padding-inline: 50px !important;
+ }
+
+ img {
+   width: 100%;
+   height: 100%;
+ }
+
+ .bg-1 {
+   background-color: #F06210;
+ }
+
+ .bg-2 {
+   background-color: #161616;
+ }
+
+ .bg-3 {
+   background-color: #0A0A0A;
+ }
+
+ .bg-4 {
+   background-color: #24160B;
+ }
+
+ .bg-5 {
+   background-color: #141414;
+ }
+
+ .bg-6 {
+   background-image: linear-gradient(to right, #0A0A0A 80%, #150E0A);
+ }
+
+ .bg-7 {
+   background-color: #161616;
+ }
+
+ .bg-8 {
+   background-color: #272727;
+ }
+
+ .bg-9 {
+   background-color: #DB7F35;
+ }
+
+ .bg-10 {
+   background-image: linear-gradient(to right, #150E0A, #0A0A0A 40%);
+ }
+
+ .bg-11 {
+   background-image: linear-gradient(to right, #0A0A0A, #150E0A, #0A0A0A 80%);
+ }
+
+ .bg-12 {
+   background-color: #B05412;
+ }
+
+ .bg-13 {
+   background-color: #3a3a3a;
+ }
+
+ .bg-14 {
+   background-color: #161616;
+ }
+
+ .bg-15 {
+   background-color: #161616;
+ }
+
+ /* ================================ */
+ .color-1 {
+   color: #C66C08;
+ }
+
+ .color-2 {
+   color: #d46a12;
+ }
+
+ .color-3 {
+   color: #B05412;
+ }
+
+ /* //////////////////////////////// */
+ .p-b-12px {
+   padding-block: 12px !important;
+ }
+
+ .p-i-25px {
+   padding-inline: 25px !important;
+ }
+
+ .w-50px {
+   width: 50px;
+ }
+
+ .h-50px {
+   height: 50px;
+ }
+
+ .w-150px {
+   width: 170px;
+ }
+
+ .w-150px {
+   width: 170px;
+ }
+
+ .w-100px {
+   width: 100px;
+ }
+
+ /* =============================== */
+ .fss-1 {
+   font-size: 4.8rem !important;
+ }
+
+ .fs-2 {
+   font-size: 4.0rem !important;
+ }
+
+ .fs-40px {
+   font-size: 40px;
+ }
+
+ .fs-10px {
+   font-size: 10px;
+ }
+
+
+ .bg-grid {
+
+   background-color: #0A0A0A;
+
+
+   background-image:
+     linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+     linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+
+
+   background-size: 70px 70px;
+ }
+
+ .bg-grid-1 {
+   background-image:
+     linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+     linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+     linear-gradient(to right, #0A0A0A, #25140c, #0A0A0A);
+
+   /* تحديد الحجم لكل طبقة بالترتيب */
+   /* الشبكة الطولية، الشبكة العرضية، ثم الخلفية كاملة */
+   background-size: 70px 70px, 70px 70px, 100% 100%;
+
+   background-repeat: repeat, repeat, no-repeat;
+ }
+
+ .line {
+   width: 100%;
+   height: 2px;
+   background-color: #272727;
+
+ }
+
+ .border-1 {
+   border: solid 1px #62310E;
+ }
+
+
+
+ .nav-link.active {
+   color: white !important;
+   background-color: #F64C00;
+   border-radius: 20px;
+ }
+
+ .hover-1:hover {
+   background-color: #2D190A !important;
+   border: solid 1px #F97316 !important;
+   color: #C66C08 !important;
+
+ }
+
+ .hover-2 {
+   transition: transform 0.3s ease
+ }
+
+ .hover-2:hover {
+   transform: translateY(-5px);
+ }
+
+ .hover-3 {
+   transition: transform 0.3s ease;
+ }
+
+ .hover-3:hover {
+   transform: scale(1.1);
+ }
+
+ .hover-4 img {
+   transition: transform 0.5s ease;
+ }
+
+ .hover-4:hover img {
+   transform: scale(1.1);
+ }
+
+ .hover-4:hover {
+   border: solid 0.5px #62310E;
+ }
+
+ .hover-4:hover h2 {
+   color: #C66C08 !important;
+ }
+
+ .hover-5:hover {
+   background-color: #F6A100;
+ }
+
+ .hover-5:hover span {
+   color: wheat;
+   background-color: #FAAD33;
+   border: none;
+ }
+
+ .navbar-toggler-icon {
+   color: wheat !important;
+ }
+
+ @media screen and (max-width:768px) {
+   .container-50px {
+     padding-inline: 30px !important;
+   }
+
+   .navbar-dis {
+     display: none !important;
+   }
+
+   .form {
+     display: none !important;
+   }
+
+   .linkBtn {
+     width: 100%;
+     margin-top: 10px;
+   }
+
+   .fss-1 {
+     font-size: 2.8rem !important;
+
+   }
+
+   .home {
+     width: 90% !important;
+   }
+
+   .fs-2 {
+     font-size: 2.0rem !important;
+   }
+
+   .subscribe {
+     width: 100% !important;
+   }
+ }
+
+ @media screen and (max-width:995px) {
+   .nav {
+     padding-inline: 5px !important;
+   }
+
+   .subscribe {
+     width: 90% !important;
+   }
+
+ }
+
+ /* @media screen and (max-width:1200px){
+  .subscribe{
+    width: 90% !important;
+  }
+
+} */
+ @media screen and (min-width:1200px) {
+   .subscribe {
+     width: 75% !important;
+   }
+
+ }
